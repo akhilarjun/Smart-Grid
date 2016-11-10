@@ -1,0 +1,72 @@
+.bar{
+    text-align: center;
+    font-family: calibri;
+}
+
+.bar .bar{
+    padding: 10px;
+}
+
+.bar .color{
+    background: rgba(182, 233, 255, 0.5);
+    border: 1px solid rgba(182, 233, 255, 1);
+    transition: all 200ms cubic-bezier(.37, -0.47, .76, 1.47);
+}
+
+.breathing-space{
+    padding: 10px;
+}
+
+body xmp {
+  padding: 10px;
+  background: #232323;
+  color: #eee;
+  font-weight: 200;
+  overflow: auto;
+  margin: 20px 0 0;
+  font-family: monospace;
+}
+body xmp:after,
+body .code span.copy,
+body .result:after {
+  content: "code";
+  font-size: 13px;
+  font-weight: 200;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+body .code span.copy{
+    content: "Copy";
+    opacity: 0;
+    padding: 5px 6px;
+    background: #333; color: #fff;
+    transition: all 400ms;
+    top: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+body .code:hover span.copy{
+    opacity: 1;
+}
+body .result{
+    background: #fff;
+    border: 1px solid #eee;
+    padding-top: 30px;
+    text-align: left;
+    overflow: auto;
+}
+body .result:after{
+    content: "Result";
+}
+.smart-icons{
+    background: #333;
+    padding: 2px;
+}
+.slate-black{
+    color: #333;
+}
