@@ -1,0 +1,6 @@
+{
+  "name": "Smart-grid",
+  "tagline": "A future ready framework, with so little footprint that you would barely notice.",
+  "body": "# Smart-Grid\r\nA future ready framework, with so little footprint that you would barely notice.\r\n\r\n### Installation\r\n\r\nInclude the below mentioned CSS file to your HTML page and that should do the magic! :wink:\r\n```html\r\n<link rel=\"stylesheet\" href=\"smart-framework-1.0/smart-framework.css\">\r\n```\r\n\r\nDetailed list of documentation is given below\r\n[API Doc](documentation.html)\r\n\r\n##May the CSS be with you!",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
